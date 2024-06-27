@@ -1,0 +1,59 @@
+package me.dio.meu_projeto.domain.model;
+
+public class Pokemon {
+private Long id;
+private String name;
+private int evolutionLevel;
+private String color;
+private String element;
+
+
+public Pokemon (String name, int evolutionLevel, String color, String element) {
+	this.name= name;
+	this.evolutionLevel = evolutionLevel;
+	this.color = color;
+	this.setElement(element);
+	
+}
+
+
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public int getEvolutionLevel() {
+	return evolutionLevel;
+}
+public void setEvolutionLevel(int evolutionLevel) {
+	this.evolutionLevel = evolutionLevel;
+}
+public String getColor() {
+	return color;
+}
+public void setColor(String color) {
+	this.color = color;
+}
+
+
+public String getElement() {
+	return element;
+}
+
+
+public void setElement(String element) {
+	this.element = element;
+}
+
+
+public Long getId() {
+	return id;
+}
+
+
+public void setId(Long id) {
+	this.id = id;
+}
+
+}

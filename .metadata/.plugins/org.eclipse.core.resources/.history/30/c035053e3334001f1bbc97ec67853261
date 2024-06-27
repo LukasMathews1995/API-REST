@@ -1,0 +1,18 @@
+package me.dio.meu_projeto;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import me.dio.meu_projeto.domain.model.Pokemon;
+import me.dio.meu_projeto.domain.model.PokemonElement;
+
+@SpringBootApplication
+public class MeuProjetoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MeuProjetoApplication.class, args);
+		
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package me.dio.meu_projeto.domain.repository;
+
+public interface GameRepository {
+
+}

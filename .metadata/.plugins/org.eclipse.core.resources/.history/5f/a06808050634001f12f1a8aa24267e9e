@@ -1,0 +1,5 @@
+package me.dio.meu_projeto.domain.model;
+
+public enum PokemonEnum {
+fire,water,earth,air,pshysical
+}

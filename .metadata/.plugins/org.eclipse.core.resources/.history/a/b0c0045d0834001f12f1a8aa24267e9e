@@ -1,0 +1,10 @@
+package me.dio.meu_projeto.domain.model;
+
+public class Game {
+	
+	private String gameName;
+	private Player owner;
+	private pokemon pokemon;
+	private Corporation corporation;
+
+}

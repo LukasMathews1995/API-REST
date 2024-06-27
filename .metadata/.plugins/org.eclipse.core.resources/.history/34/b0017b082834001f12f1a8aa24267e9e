@@ -1,0 +1,5 @@
+package me.dio.meu_projeto.domain.service.impl;
+
+public class GameServiceImpl {
+
+}
